@@ -1,0 +1,91 @@
+#include<iostream.h>
+#include<conio.h>
+#include<math.h>
+#include<dos.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+void main()
+{
+    int n;
+    
+    int c;//for return
+    x:
+    cout<<"enter the respetive number for options:-"; 
+    cin>>n;
+    if(n==1)
+    {
+        clrscr();
+        cout<<"                    ABOUT US:-               \n  ";
+        cout<<"  we are the people of smartearth  and our aim is to do something positive and good for the society\n  ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+    if(n==2)
+    {
+        clrscr();
+        cout<<"                    CHOOSE YPUR LANGUAGE:-               \n  ";
+        cout<<"                    \n                   ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+    if(n==3)
+    {
+        clrscr();
+        cout<<"                    REGESISTER HERE:-                \n  ";
+        cout<<"                                         ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+    if(n==4)
+    {
+        clrscr();
+        cout<<"                    PRECAUTIONS:-                \n  ";
+        cout<<"                                         ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+    if(n==5)
+    {
+        clrscr();
+        cout<<"                    PARTNERS:-                \n  ";
+        cout<<"                                         ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+    if(n==6)
+    {
+        clrscr();
+        cout<<"                   CONTACT US                \n  ";
+        cout<<"                                         ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+    if(n==7)
+    {
+        clrscr();
+        cout<<"                    FEEDBACK FORM               \n  ";
+        cout<<"                                         ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+    }
+
+    if(n==7)
+    {
+        clrscr();
+        cout<<"                    CHAT ROOM                \n  ";
+        cout<<"                                         ";
+        cout<<"press 0 for back space";
+        c=getch();
+        if(c==0)goto x;
+        else 
+         c==
+    }
+}
